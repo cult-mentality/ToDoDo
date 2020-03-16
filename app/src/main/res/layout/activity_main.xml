@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:lines="5"
+       android:textSize="35sp"
+       android:textStyle="bold"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="150dp"
+       android:text="A Goal without a plan\n           is just a wish\n\n                 - Alan Leiken"
+       android:textColor="#000"/>
+
+   <Button
+       android:id="@+id/login_button"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:textSize="25sp"
+       android:padding="10dp"
+       android:text="Start"
+       android:layout_marginHorizontal="150dp"
+       android:layout_marginBottom="150dp"
+       android:layout_marginTop="30dp"
+       />
+
+   </LinearLayout>
